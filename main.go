@@ -13,7 +13,7 @@ func main() {
 	var ok bool
 	var err error
 	if len(os.Args) < 3 || os.Args[1] != "-E" {
-		fmt.Fprintf(os.Stderr, "usage: mygrep -E <pattern>\n")
+		fmt.Fprintf(os.Stderr, "usage: g-grep -E <pattern>\n")
 		os.Exit(2) // 1 means no lines were selected, >1 means error
 	}
 
