@@ -96,10 +96,6 @@ go build -o g-grep
 
 Feel free to contribute to this project by opening issues, suggesting features, or submitting pull requests.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Acknowledgments
 
 This project is inspired by the grep -E command and aims to provide a basic understanding of pattern matching and regular expressions in `Go`.
